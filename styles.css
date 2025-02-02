@@ -37,9 +37,10 @@ html {
   min-width: 500px;
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1800px) {
   .container iframe {
     height: 80vh;
+    width: 80vh;
   }
 }
 
