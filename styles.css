@@ -18,7 +18,7 @@ html {
   position: absolute;
   font-weight: 300;
   padding: 10px;
-  top: 96%;
+  top: 92%;
   left: 0;
 }
 
@@ -35,6 +35,12 @@ html {
 .container iframe {
   width: fit-content;
   min-width: 500px;
+}
+
+@media (min-width: 1400px) {
+  .container iframe {
+    height: 80vh;
+  }
 }
 
 .container .text h1 {
