@@ -33,23 +33,24 @@ html {
 }
 
 .container iframe {
-  width: fit-content;
-  min-width: 500px;
+  /* width: fit-content; */
+  height: 45vw;
+  width: 45vw;
 }
 
-@media (min-width: 1800px) {
-  .container iframe {
-    height: 80vh;
-    width: 80vh;
-  }
+h1 {
+  font-size: 65px;
 }
-
-.container .text h1 {
-  font-size: 80px;
-}
-.container .text h2 {
+h2 {
   font-weight: 300;
   width: 70%;
+}
+
+@media (max-width: 500px) {
+  .container iframe {
+    height: 90vw;
+    width: 90vw;
+  }
 }
 
 .fill {
